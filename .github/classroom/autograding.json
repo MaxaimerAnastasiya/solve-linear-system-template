@@ -193,7 +193,7 @@
     {
       "name": "Проверка матрицы на вырожденность",
       "setup": ".github/build.sh",
-      "run": "echo \"1 1 1 1\" > a.in && .github/test_ret_val.sh -4 2 2 0 a.in",
+      "run": "echo 1 1 1 1 > a.in && .github/test_ret_val.sh -4 2 2 0 a.in",
       "input": "",
       "output": "",
       "comparison": "included",
